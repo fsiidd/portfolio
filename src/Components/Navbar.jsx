@@ -3,7 +3,10 @@ import resume from "../Faryal_Siddiqui_Resume.pdf";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full z-10 bg-opacity-80">
+    <nav
+      className="fixed top-0 left-0 w-full z-10 bg-opacity-80"
+      style={{ backgroundColor: "#f0efef" }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo/Name */}
