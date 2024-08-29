@@ -15,10 +15,10 @@ const About = () => {
   }, []);
 
   return (
-    <div className="container mx-auto mt-40 py-10 rounded-lg">
+    <div className="container mx-auto lg:mt-40 sm: mt-16 py-10 sm:mx-8 rounded-lg">
       <div className="flex flex-col lg:flex-row items-center lg:space-x-10">
         {/* Text Section */}
-        <div className="lg:flex-1 lg:pr-10">
+        <div className="lg:flex-1 lg:pr-10 ">
           <RoughNotationGroup show={true}>
             <h1 className="text-4xl font-bold text-gray-900 lg:text-5xl mb-4">
               Hi there, I'm{" "}
@@ -76,7 +76,7 @@ const About = () => {
                 internships! I’m always open to new opportunities and
                 interesting conversations.
               </p>
-              <p className="text-xl font-bold underline hover:text-blue-400">
+              <p className="text-xl font-bold underline hover:text-blue-400 my-10">
                 <a href="mailto:faryall.siddiquii@gmail.com">
                   Let's get in touch!
                 </a>
@@ -96,7 +96,7 @@ const About = () => {
             />
           </div>
           {/* Secondary Images */}
-          <div className="flex flex-col space-y-4 ">
+          <div className="flex flex-col mx-auto space-y-4 sm:space-x-0 sm:justify-center">
             <img
               src={profileImg2}
               alt="Faryal infront of Intuit"
