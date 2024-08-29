@@ -77,15 +77,18 @@ const About = () => {
                 interesting conversations.
               </p>
               <p className="text-xl font-bold underline hover:text-blue-400 my-10">
-                <a href="mailto:faryall.siddiquii@gmail.com">
-                  Let's get in touch!
-                </a>
+                <RainbowHighlight color={colors[1]}>
+                  <a href="mailto:faryall.siddiquii@gmail.com">
+                    Let's get in touch!
+                  </a>
+                </RainbowHighlight>
               </p>
             </div>
           </RoughNotationGroup>
         </div>
 
         {/* Image Gallery */}
+
         <div className="flex flex-col space-y-4 lg:space-y-0 lg:space-x-4 lg:flex-row lg:items-center lg:justify-center">
           {/* Main Profile Picture */}
           <div className="flex-shrink-0 ">
