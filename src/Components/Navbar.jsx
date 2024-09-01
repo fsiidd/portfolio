@@ -1,5 +1,4 @@
 import React from "react";
-import resume from "../Faryal_Siddiqui_Resume.pdf";
 
 const Navbar = () => {
   return (
@@ -25,7 +24,7 @@ const Navbar = () => {
             </a>
             <a
               rel="noreferrer"
-              href={resume}
+              href={`${process.env.PUBLIC_URL}/Faryal_Siddiqui_Resume.pdf`}
               target="_blank"
               className="flex items-center space-x-1 hover:text-gray-400"
             >
