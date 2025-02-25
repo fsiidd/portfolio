@@ -11,7 +11,6 @@ function App() {
         <Navbar />
         <About />
         <Experiences />
-        <Experiences />
       </Wrapper>
     </div>
   );
