@@ -8,7 +8,19 @@
 }
 
 body {
-  background-color: #f0efef;
+  @apply bg-light-bg text-dark-text transition-colors duration-300;
+}
+
+body.dark {
+  @apply bg-dark-bg text-light-text;
+}
+
+/* Optional colors for light/dark mode */
+:root {
+  --light-bg: #f8fafc; /* Light background */
+  --dark-bg: #1a202c; /* Dark background */
+  --light-text: #1a202c; /* Light mode text */
+  --dark-text: #e5e7eb; /* Dark mode text */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -39,4 +51,8 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
