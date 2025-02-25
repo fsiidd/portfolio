@@ -5,10 +5,9 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import { shuffleArray } from "../lib/shuffleArray";
 import { FaArrowDown } from "react-icons/fa";
 import { LIGHT_COLORS } from "../lib/constants";
-import { useIsFontReady } from "./useIsFontReady";
 
 const About = () => {
-  const isFontReady = useIsFontReady();
+  // eslint-disable-next-line
   const [colors, setColors] = React.useState([]);
   React.useEffect(() => {
     setColors(shuffleArray(LIGHT_COLORS));
