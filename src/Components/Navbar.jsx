@@ -50,7 +50,7 @@ const Navbar = () => {
               <FaGithub className="h-6 w-6 sm:h-8 sm:w-8 text-gray-900 dark:text-gray-100" />
             </a>
             <a
-              href="https://www.linkedin.com/in/faryalsiddiqui/"
+              href="https://www.linkedin.com/in/fsiidd/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-500 dark:hover:text-gray-300"

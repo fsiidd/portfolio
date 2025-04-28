@@ -1,24 +1,27 @@
 import React from "react";
+import intuit_logo from "../assets/intuit_logo.jpeg";
+import autodesk_logo from "../assets/autodesk_logo.jpeg";
+import monstrartity_logo from "../assets/monstrartity_logo.jpeg";
 
 const Experiences = () => {
   const experiences = [
     {
       company: "Autodesk - Software Engineer Intern",
-      logo: "https://media.licdn.com/dms/image/v2/D560BAQGrSi2UOCdL5g/company-logo_200_200/company-logo_200_200/0/1719952472030/autodesk_logo?e=1743033600&v=beta&t=ZwBnrGkCv-pzue2s6a2g3egB669hw_iVxF1g--WdD1A",
+      logo: autodesk_logo,
       dates: "May 2025",
       description:
-        "Incoming SWE Intern on the Cloud Licensing Platform Team. Working on scalable distributed systems for the cloud licensing platform for Autodesk's products.",
+        "Incoming SWE Intern on the Cloud Licensing Platform Team. Working on the cloud licensing platform for Autodesk's products.",
     },
     {
       company: "Intuit - Software Engineer Intern",
-      logo: "https://media.licdn.com/dms/image/v2/C560BAQFTpF8uneqScw/company-logo_200_200/company-logo_200_200/0/1661446146222/intuit_logo?e=1743033600&v=beta&t=1epBBmgp0wu7C4GroSfxCDP0u5R3tGJqbR6bCn75xfE",
+      logo: intuit_logo,
       dates: "Jan 2024 - Aug 2024",
       description:
         "Worked on Intuit's Design Systems Team, focusing on the Product Development Web Team. Built reusable web components, drove a Figma-to-code proof of concept, tackled tickets to enhance design consistency, and optimized CI/CD pipelines for seamless development and deployment.",
     },
     {
       company: "monstrARTity - Web Developer",
-      logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHAl-s8Jep8mA/company-logo_200_200/company-logo_200_200/0/1630563358574/monstrartity_creative_community_logo?e=1743033600&v=beta&t=eSq8tZN_Ahetk5izMX6ZOgs6FqJusaNnI8b2YqtsZP4",
+      logo: monstrartity_logo,
       dates: "Oct 2022 - Apr 2024",
       description:
         "Worked on making the website faster and more user-friendly. Reduced load times, boosted traffic by over 10k users, and added secure payment integration for artist programs. Focused on improving performance and ensuring users had a smooth experience exploring and booking programs. Fun mix of creativity and optimization!",

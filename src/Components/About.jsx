@@ -120,8 +120,7 @@ const About = () => {
                       Incoming Software Engineer Intern
                     </span>{" "}
                     on their Cloud Licensing Platform Team. I’ll be working on
-                    backend development and cloud engineering, diving deeper
-                    into scalable systems and distributed architectures.
+                    backend development and cloud engineering.
                   </p>
 
                   {/* What I'm Up To Section */}
